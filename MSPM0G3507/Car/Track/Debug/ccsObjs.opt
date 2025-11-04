@@ -1,0 +1,17 @@
+"./empty.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./BSP/src/LCD.o"
+"./BSP/src/bsp_tb6612.o"
+"./BSP/src/encoder.o"
+"./BSP/src/hw_lcd.o"
+"./BSP/src/hw_spi.o"
+"./BSP/src/key.o"
+"./BSP/src/pid.o"
+"./BSP/src/senser.o"
+"./BSP/src/track_key.o"
+"./BSP/src/vofa.o"
+"./Board/board.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
